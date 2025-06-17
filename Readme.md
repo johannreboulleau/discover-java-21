@@ -1,10 +1,15 @@
 
 # Java 12 
 
-
 ## Switch
 
 This new switch form uses the lambda-style syntax.
+
+# Java 13
+
+## Text block
+- Multiline string literals with `"""` for better handling of multiline strings.
+- Reduces the need for ugly string concatenations or escape characters.
 
 # Java 14
 
