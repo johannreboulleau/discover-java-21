@@ -1,8 +1,19 @@
+
+# Java 12 
+
+
+## Switch
+
+This new switch form uses the lambda-style syntax.
+
 # Java 14
 
 ## Record
 
-Immutable data record
+Immutable data record that generates for us:
+* Getter
+* Equals, hashcode method
+* toString method
 
 # Java 17
 
