@@ -4,7 +4,7 @@
 
 ### Fork/Join
 
-Useful to calculate in parallele repetitive tasks
+Useful to calculate in parallel repetitive tasks
 
 ## Java 8
 
@@ -67,3 +67,5 @@ Immutable data record that generates for us:
 
 ### Pattern Matching for `switch` (Finalized)
 
+### Structured Concurrency (Preview)
+- Handles multiple tasks in parallel with intricate handling of task scope and lifecycle.
