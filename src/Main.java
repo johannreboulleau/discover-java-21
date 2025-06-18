@@ -1,3 +1,5 @@
+import forkjoin.ForkJoin;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
@@ -42,5 +44,9 @@ public class Main {
         Lambda lambda = new Lambda();
         lambda.test(List.of("a", "b", "c"));
         Stream.of(lambda).map(Lambda::toUpperCaseCustom).forEach(System.out::println);
+
+        // Fork Join
+        ForkJoin forkJoin = new ForkJoin();
+        forkJoin.test();
     }
 }

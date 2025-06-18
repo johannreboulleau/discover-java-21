@@ -1,26 +1,34 @@
-# Java 8
+# Java
 
-## Stream and Lambda
+## Java 7
+
+### Fork/Join
+
+Useful to calculate in parallele repetitive tasks
+
+## Java 8
+
+### Stream and Lambda
 - Function
 - Consumer
 - Predicate
 - ...
 
-# Java 12 
+## Java 12 
 
-## Switch
+### Switch
 
 This new switch form uses the lambda-style syntax.
 
-# Java 13
+## Java 13
 
-## Text block (Preview)
+### Text block (Preview)
 - Multiline string literals with `"""` for better handling of multiline strings.
 - Reduces the need for ugly string concatenations or escape characters.
 
-# Java 14
+## Java 14
 
-## Record (Preview)
+### Record (Preview)
 
 Immutable data record that generates for us:
 * Getter
@@ -29,34 +37,33 @@ Immutable data record that generates for us:
 
 **Key use case**: Simplifying boilerplate-heavy `DTOs`.
 
-# Java 15
+## Java 15
 
-## Text Blocks (Finalized)
+### Text Blocks (Finalized)
 - Text blocks using `"""` were finalized as part of the language.
 
-## Sealed Classes (Preview)
+### Sealed Classes (Preview)
 - Restrict the classes or interfaces that can extend or implement a certain class/interface.
 - Useful for enforcing strict inheritance hierarchies.
 
-# Java 16
+## Java 16
 
-## Record (Finalized)
+### Record (Finalized)
 
-## Steam enhancements
+### Steam enhancements
 - New methods like `Stream.toList()`, offering an immutable list from a Stream.
 
-# Java 17
+## Java 17
 
-## Sealed Classes (Finalized)
+### Sealed Classes (Finalized)
 
-## Pattern Matching for `switch` (Preview)
+### Pattern Matching for `switch` (Preview)
 - Cleaner integration of pattern matching with `switch` cases, making type checking and casting automatic.
 
-# Java 21
+## Java 21
 
-## String templates
+### String templates (Removed)
+**NOT USED: removed in Java 21**
 
-**NOT USED: removed in Java23**
-
-## Pattern Matching for `switch` (Finalized)
+### Pattern Matching for `switch` (Finalized)
 
