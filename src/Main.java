@@ -48,5 +48,9 @@ public class Main {
         // Fork Join
         ForkJoin forkJoin = new ForkJoin();
         forkJoin.test();
+
+        // virtual thread
+        VirtualThreadTest virtualThreadTest = new VirtualThreadTest();
+        virtualThreadTest.testVirtualVsKernelThread();
     }
 }

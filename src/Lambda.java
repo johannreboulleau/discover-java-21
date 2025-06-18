@@ -6,7 +6,7 @@ import java.util.function.Supplier;
 
 public class Lambda {
 
-    private String str = "a";
+    private final String str = "a";
 
     private final Consumer<String> consumer = (input) -> {
         input = input.toUpperCase();

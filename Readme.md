@@ -73,6 +73,19 @@ Immutable data record that generates for us:
 
 ### Pattern Matching for `switch` (Finalized)
 
+### Virtual thread
+
+Platform thread is a Java wrapper for OS thread.
+
+Advantages:
+- free a platform thread, and memory thread when we have a blocking process as I/O.
+- useful with a web server with lot of request with I/O
+- not faster than platform thread
+
+Avoid to use Virtual thread with:
+- heavy task with CPU
+- synchronized 
+- forgot to unmount virtual threads
 
 ### Preview
 

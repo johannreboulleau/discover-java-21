@@ -16,7 +16,7 @@ public class SumAction extends RecursiveTask<Long> {
     protected Long compute() {
         if (data.size() <= SEQUENTIAL_THRESHOLD) { // base case
             long sum = computeSumDirectly();
-            System.out.format("\nSum of %s: %d\n", data.toString(), sum);
+            System.out.format("\n" + Thread.currentThread() + " Sum of %s: %d\n", data.toString(), sum);
             return sum;
         } else { // recursive case
             // Calculate new range
