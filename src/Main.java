@@ -29,5 +29,11 @@ public class Main {
         // Foreign Function and Memory API
         ForeignFunctionMemoryAPI foreignFunctionMemoryAPI = new ForeignFunctionMemoryAPI();
         foreignFunctionMemoryAPI.test();
+
+        // Pattern matching switch
+        PatternMatchingSwitch patternMatchingSwitch = new PatternMatchingSwitch();
+        patternMatchingSwitch.test("a");
+        patternMatchingSwitch.test(1);
+        patternMatchingSwitch.test("b");
     }
 }

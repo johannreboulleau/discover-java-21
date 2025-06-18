@@ -42,6 +42,8 @@ Immutable data record that generates for us:
 
 ## Sealed Classes (Finalized)
 
+## Pattern Matching for `switch` (Preview)
+- Cleaner integration of pattern matching with `switch` cases, making type checking and casting automatic.
 
 # Java 21
 
@@ -49,4 +51,5 @@ Immutable data record that generates for us:
 
 **NOT USED: removed in Java23**
 
+## Pattern Matching for `switch` (Finalized)
 
