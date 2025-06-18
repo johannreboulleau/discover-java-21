@@ -51,6 +51,9 @@ Useful to calculate in parallel repetitive tasks
 - Predicate
 - ...
 
+### Migration to Jakarta EE
+* `javax.servlet` devient `jakarta.servlet`
+
 ## Java 9
 
 ### Modules
