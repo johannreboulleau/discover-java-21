@@ -73,6 +73,7 @@ Immutable data record that generates for us:
 
 ### Pattern Matching for `switch` (Finalized)
 
+
 ### Preview
 
 #### Structured Concurrency (Preview)
@@ -83,3 +84,12 @@ Immutable data record that generates for us:
 
 #### Scoped Values (Preview)
 A new API for safely sharing immutable values across threads.
+
+# Garbage collector
+
+4 types:
+- Serial Garbage Collector (< JDK 5) => for mono-thread
+- Parallel Garbage Collector (JDK 5 - JDK 8) => multi-thread 
+- G1 Garbage Collector (> JDK 7) => large memory consumption
+- Z Garbage Collector (default) (<= JDK 15 finalized)
+  - ZGC performs all expensive work concurrently, without stopping the execution of application threads for more than 10 ms, which makes it suitable for applications that require low latency. 
