@@ -14,6 +14,19 @@ Useful to calculate in parallel repetitive tasks
 - Predicate
 - ...
 
+## Java 9
+
+### Modules
+- To organize the code
+- new level as package, class, method
+- 
+
+It declares:
+- a name
+- a list of dependencies on other modules
+- a public API (with everything else being module internal and inaccessible)
+- a list of services it uses and provides
+
 ## Java 10
 
 ### Local Variable Type Inference
