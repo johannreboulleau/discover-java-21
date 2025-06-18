@@ -1,5 +1,42 @@
 # Java
 
+<!-- TOC -->
+* [Java](#java)
+  * [Java 7](#java-7)
+    * [Fork/Join](#forkjoin)
+  * [Java 8](#java-8)
+    * [Stream and Lambda](#stream-and-lambda)
+  * [Java 9](#java-9)
+    * [Modules](#modules)
+  * [Java 10](#java-10)
+    * [Local Variable Type Inference](#local-variable-type-inference)
+  * [Java 12](#java-12-)
+    * [Switch](#switch)
+  * [Java 13](#java-13)
+    * [Text block (Preview)](#text-block-preview)
+  * [Java 14](#java-14)
+    * [Record (Preview)](#record-preview)
+  * [Java 15](#java-15)
+    * [Text Blocks (Finalized)](#text-blocks-finalized)
+    * [Sealed Classes (Preview)](#sealed-classes-preview)
+  * [Java 16](#java-16)
+    * [Record (Finalized)](#record-finalized)
+    * [Stream enhancements](#stream-enhancements)
+  * [Java 17](#java-17)
+    * [Sealed Classes (Finalized)](#sealed-classes-finalized)
+    * [Pattern Matching for `switch` (Preview)](#pattern-matching-for-switch-preview)
+  * [Java 21](#java-21)
+    * [String templates (Deprecated)](#string-templates-deprecated)
+    * [Pattern Matching for `switch` (Finalized)](#pattern-matching-for-switch-finalized)
+    * [Virtual thread](#virtual-thread)
+    * [Sequenced Collections](#sequenced-collections)
+    * [Preview](#preview)
+      * [Structured Concurrency (Preview)](#structured-concurrency-preview)
+      * [Foreign Function aand Memory API (Preview)](#foreign-function-aand-memory-api-preview)
+      * [Scoped Values (Preview)](#scoped-values-preview)
+* [Garbage collector](#garbage-collector)
+<!-- TOC -->
+
 ## Java 7
 
 ### Fork/Join
@@ -8,7 +45,7 @@ Useful to calculate in parallel repetitive tasks
 
 ## Java 8
 
-### Stream and discovery.global.Lambda
+### Stream and Lambda
 - Function
 - Consumer
 - Predicate
@@ -34,7 +71,7 @@ It declares:
 
 ## Java 12 
 
-### discovery.global.Switch
+### Switch
 
 This new switch form uses the lambda-style syntax.
 
@@ -46,7 +83,7 @@ This new switch form uses the lambda-style syntax.
 
 ## Java 14
 
-### discovery.global.Record (Preview)
+### Record (Preview)
 
 Immutable data record that generates for us:
 * Getter
@@ -66,9 +103,9 @@ Immutable data record that generates for us:
 
 ## Java 16
 
-### discovery.global.Record (Finalized)
+### Record (Finalized)
 
-### Steam enhancements
+### Stream enhancements
 - New methods like `Stream.toList()`, offering an immutable list from a Stream.
 
 ## Java 17
