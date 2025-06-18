@@ -14,6 +14,12 @@ Useful to calculate in parallel repetitive tasks
 - Predicate
 - ...
 
+## Java 10
+
+### Local Variable Type Inference
+
+**keyword: `var`**
+
 ## Java 12 
 
 ### Switch
@@ -62,10 +68,18 @@ Immutable data record that generates for us:
 
 ## Java 21
 
-### String templates (Removed)
-**NOT USED: removed in Java 21**
+### String templates (Deprecated)
+**NOT USED: removed in Java 23**
 
 ### Pattern Matching for `switch` (Finalized)
 
-### Structured Concurrency (Preview)
+### Preview
+
+#### Structured Concurrency (Preview)
 - Handles multiple tasks in parallel with intricate handling of task scope and lifecycle.
+
+#### Foreign Function aand Memory API (Preview)
+- handle native memory
+
+#### Scoped Values (Preview)
+A new API for safely sharing immutable values across threads.
