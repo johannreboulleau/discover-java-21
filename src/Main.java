@@ -21,5 +21,9 @@ public class Main {
         System.out.println("isSealed: " + bicycle.getClass().isSealed());
         System.out.println("super class isSealed: " + bicycle.getClass().getSuperclass().isSealed());
         System.out.println("permitted sub class: " + Arrays.toString(bicycle.getClass().getSuperclass().getPermittedSubclasses()));
+
+        // Stream
+        StreamTest streamTest = new StreamTest();
+        streamTest.test();
     }
 }

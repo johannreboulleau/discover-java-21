@@ -13,7 +13,7 @@ This new switch form uses the lambda-style syntax.
 
 # Java 14
 
-## Record
+## Record (Preview)
 
 Immutable data record that generates for us:
 * Getter
@@ -30,6 +30,13 @@ Immutable data record that generates for us:
 ## Sealed Classes (Preview)
 - Restrict the classes or interfaces that can extend or implement a certain class/interface.
 - Useful for enforcing strict inheritance hierarchies.
+
+# Java 16
+
+## Record (Finalized)
+
+## Steam enhancements
+- New methods like `Stream.toList()`, offering an immutable list from a Stream.
 
 # Java 17
 
