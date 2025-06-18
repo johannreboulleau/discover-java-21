@@ -25,5 +25,9 @@ public class Main {
         // Stream
         StreamTest streamTest = new StreamTest();
         streamTest.test();
+
+        // Foreign Function and Memory API
+        ForeignFunctionMemoryAPI foreignFunctionMemoryAPI = new ForeignFunctionMemoryAPI();
+        foreignFunctionMemoryAPI.test();
     }
 }
