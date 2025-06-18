@@ -20,6 +20,11 @@ Immutable data record that generates for us:
 * Equals, hashcode method
 * toString method
 
+# Java 15
+
+## Text Blocks (Finalized)
+- Text blocks using `"""` were finalized as part of the language.
+
 # Java 17
 
 # Java 21
