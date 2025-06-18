@@ -8,7 +8,7 @@ Useful to calculate in parallel repetitive tasks
 
 ## Java 8
 
-### Stream and Lambda
+### Stream and discovery.global.Lambda
 - Function
 - Consumer
 - Predicate
@@ -19,7 +19,6 @@ Useful to calculate in parallel repetitive tasks
 ### Modules
 - To organize the code
 - new level as package, class, method
-- 
 
 It declares:
 - a name
@@ -35,7 +34,7 @@ It declares:
 
 ## Java 12 
 
-### Switch
+### discovery.global.Switch
 
 This new switch form uses the lambda-style syntax.
 
@@ -47,7 +46,7 @@ This new switch form uses the lambda-style syntax.
 
 ## Java 14
 
-### Record (Preview)
+### discovery.global.Record (Preview)
 
 Immutable data record that generates for us:
 * Getter
@@ -67,7 +66,7 @@ Immutable data record that generates for us:
 
 ## Java 16
 
-### Record (Finalized)
+### discovery.global.Record (Finalized)
 
 ### Steam enhancements
 - New methods like `Stream.toList()`, offering an immutable list from a Stream.
@@ -99,6 +98,10 @@ Avoid to use Virtual thread with:
 - heavy task with CPU
 - synchronized 
 - forgot to unmount virtual threads
+
+### Sequenced Collections
+
+
 
 ### Preview
 

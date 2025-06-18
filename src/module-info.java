@@ -1,4 +1,7 @@
 module discover.java {
 
-    exports forkjoin;
+    exports discovery.forkjoin;
+    exports discovery.sealed;
+    exports discovery.global;
+    exports discovery;
 }

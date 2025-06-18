@@ -1,4 +1,4 @@
-package forkjoin;
+package discovery.forkjoin;
 
 import java.util.List;
 import java.util.concurrent.RecursiveTask;

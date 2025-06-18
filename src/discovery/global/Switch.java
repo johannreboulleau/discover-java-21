@@ -1,10 +1,12 @@
+package discovery.global;
+
 enum Event {
     PLAY, PAUSE, STOP
 }
 
 public class Switch {
 
-    void test() {
+    public void test() {
         var event = Event.PLAY;
         switch (event) {
             case PLAY -> System.out.println("Play");

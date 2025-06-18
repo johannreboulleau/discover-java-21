@@ -1,6 +1,8 @@
+package discovery.global;
+
 public class PatternMatchingSwitch {
 
-    void test(Object o) {
+    public void test(Object o) {
         switch (o) {
             case String s when s.equals("a") -> System.out.println(s + " is a String and equals a");
             case String s -> System.out.println(s + " is a String and not equals a");

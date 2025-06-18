@@ -1,4 +1,4 @@
-//import java.lang.foreign.Arena;
+package discovery.global;//import java.lang.foreign.Arena;
 //import java.lang.foreign.MemoryLayout;
 //import java.lang.foreign.MemorySegment;
 //import java.lang.foreign.ValueLayout;
@@ -6,7 +6,7 @@
 
 public class ForeignFunctionMemoryAPI {
 
-    void test() {
+    public void test() {
 //        int value = 10;
 //        MemoryLayout pointLayout = MemoryLayout.structLayout(
 //                ValueLayout.JAVA_INT.withName("x"),

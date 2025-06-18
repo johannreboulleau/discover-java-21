@@ -1,4 +1,16 @@
-import forkjoin.ForkJoin;
+package discovery;
+
+import discovery.forkjoin.ForkJoin;
+import discovery.global.ForeignFunctionMemoryAPI;
+import discovery.global.Lambda;
+import discovery.global.PatternMatchingSwitch;
+import discovery.global.Record;
+import discovery.global.SequencedCollections;
+import discovery.global.StreamTest;
+import discovery.global.Switch;
+import discovery.global.VirtualThreadTest;
+import discovery.sealed.Bicycle;
+import discovery.sealed.SealedClassOrInterface;
 
 import java.util.Arrays;
 import java.util.List;
@@ -8,15 +20,15 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
 
-        // Record
-        Record record = new Record();
+        // discovery.global.Record
+        discovery.global.Record record = new Record();
         record.test();
 
-        // Switch
+        // discovery.global.Switch
         Switch switchTest = new Switch();
         switchTest.test();
 
-        // sealed class
+        // discovery.sealed class
         Bicycle bicycle = new Bicycle();
         SealedClassOrInterface sealedClass = new SealedClassOrInterface();
         sealedClass.test(bicycle);
@@ -40,7 +52,7 @@ public class Main {
         patternMatchingSwitch.test(1);
         patternMatchingSwitch.test("b");
 
-        // Lambda
+        // discovery.global.Lambda
         Lambda lambda = new Lambda();
         lambda.test(List.of("a", "b", "c"));
         Stream.of(lambda).map(Lambda::toUpperCaseCustom).forEach(System.out::println);
@@ -52,5 +64,9 @@ public class Main {
         // virtual thread
         VirtualThreadTest virtualThreadTest = new VirtualThreadTest();
         virtualThreadTest.testVirtualVsKernelThread();
+
+        // sequenced collections
+        SequencedCollections sequencedCollections = new SequencedCollections();
+        sequencedCollections.test();
     }
 }

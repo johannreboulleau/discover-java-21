@@ -1,9 +1,11 @@
+package discovery.global;
+
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 
 public class VirtualThreadTest {
 
-    void testVirtualVsKernelThread() {
+    public void testVirtualVsKernelThread() {
 
         // 1er implementation
         Runnable printThread = () -> System.out.println(Thread.currentThread());

@@ -1,8 +1,8 @@
-
+package discovery.sealed;
 
 public class SealedClassOrInterface {
 
-    void test(Vehicle vehicle) {
+    public void test(Vehicle vehicle) {
         if (vehicle instanceof Car car) {
             car.drive();
         } else if (vehicle instanceof Truck truck) {
@@ -11,27 +11,17 @@ public class SealedClassOrInterface {
     }
 }
 
-sealed interface Vehicle permits AVehicle, Car, Truck, Bicycle {
-    void drive();
-}
-
 final class Car implements Vehicle {
     public void drive() {
         System.out.println("Driving car");
     }
 }
 
-sealed class Truck extends AVehicle implements Vehicle {
+sealed class Truck extends AVehicle implements Vehicle permits Bicycle {
 }
 
 abstract sealed class AVehicle implements Vehicle {
     public void drive() {
-        System.out.println("Driving AVehicle");
-    }
-}
-
-final class Bicycle extends Truck implements Vehicle {
-    public void drive() {
-        System.out.println("Driving bicycle");
+        System.out.println("Driving discovery.sealed.AVehicle");
     }
 }

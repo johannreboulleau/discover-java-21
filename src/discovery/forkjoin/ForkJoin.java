@@ -1,9 +1,7 @@
-package forkjoin;
+package discovery.forkjoin;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-import java.util.StringJoiner;
 import java.util.concurrent.ForkJoinPool;
 import java.util.stream.Collectors;
 
