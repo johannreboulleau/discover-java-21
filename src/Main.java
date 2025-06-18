@@ -1,4 +1,8 @@
+import lambda.Lambda;
+
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {
@@ -35,5 +39,10 @@ public class Main {
         patternMatchingSwitch.test("a");
         patternMatchingSwitch.test(1);
         patternMatchingSwitch.test("b");
+
+        // Lambda
+        Lambda lambda = new Lambda();
+        lambda.test(List.of("a", "b", "c"));
+        Stream.of(lambda).map(Lambda::toUpperCaseCustom).forEach(System.out::println);
     }
 }
