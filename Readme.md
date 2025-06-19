@@ -141,7 +141,18 @@ Avoid to use Virtual thread with:
 
 ### Sequenced Collections
 
+Allow to 
+- add first and last element
+- remove first and last element
+- inverse the order
 
+### Class Data Sharing (CDS)
+
+- Java 5: only for classes of JVM
+- Java 9: Application Class Data Sharing (can add custom class manually)
+- Java 10: Class Data Sharing by default
+- Java 11 to 15: mulitple improvments
+- Java 21: mature feature
 
 ### Preview
 
